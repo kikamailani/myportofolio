@@ -50,6 +50,7 @@ main {
    font-size: 70px;
    padding-top: 110px;
    font-family: 'Courier New', Courier, monospace;
+   margin-bottom: 10px;
 }
 
 .judul {
@@ -113,4 +114,9 @@ footer{
 i {
   margin-left: 500px;
   padding-left: 500px;
+}
+
+img {
+    width: 700px;
+    
 }
