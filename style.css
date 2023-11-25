@@ -76,9 +76,11 @@ article {
 
 .list p {
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size:20px;
+    
+
 }
 
 .list h2 {
@@ -111,12 +113,19 @@ footer{
     
 }
 
-i {
-  margin-left: 500px;
-  padding-left: 500px;
-}
-
 img {
-    width: 700px;
-    
+    max-width: 100%;
+    height: auto;
+    padding: 50px;
+
 }
+ 
+@media screen and (max-width: 360px) {
+    nav{
+      padding: 10px  15px;
+    }
+    main{
+        background: linear-gradient(to bottom, white, rgb(12, 49, 84));
+    }
+    
+  }
